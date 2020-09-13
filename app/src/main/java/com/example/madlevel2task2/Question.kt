@@ -9,14 +9,18 @@ data class Question (
             "A 'val' and 'var' are the same.",
             "Mobile Application Development grants 12 ECTS.",
             "A unit in Kotlin corresponds to a void in Java.",
-            "In Kotlin 'when' replaces the 'switch' operator in Java."
+            "In Kotlin 'when' replaces the 'switch' operator in Java.",
+            "In Kotlin the 'or' operator replaces the '||' operator in Java.",
+            ".xml files have no purpose."
         )
 
         val ANSWERS = arrayOf(
             false,
             false,
             true,
-            true
+            true,
+            true,
+            false
         )
     }
 }
