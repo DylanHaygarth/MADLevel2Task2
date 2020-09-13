@@ -11,5 +11,12 @@ data class Question (
             "A unit in Kotlin corresponds to a void in Java.",
             "In Kotlin 'when' replaces the 'switch' operator in Java."
         )
+
+        val ANSWERS = arrayOf(
+            false,
+            false,
+            true,
+            true
+        )
     }
 }
